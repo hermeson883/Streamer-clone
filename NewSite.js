@@ -22,6 +22,22 @@ const swiper = new Swiper('.swiper', {
     pagination: {
       el: '.swiper-pagination',
     },
-  
-    
 });
+
+var movie = document.getElementsByClassName('paralax');
+var menu = document.getElementsByClassName("menu");
+const toggle = document.querySelectorAll("login")
+new simpleParallax(movie, {
+    delay: .6,
+	transition: 'cubic-bezier(0,0,0,1)',
+    overflow: false,
+    scale: "1.2",
+})
+
+
+function reveal(){
+    ScrollReveal().reveal('.movies1, .home, .swiper, #plans, #footer', {reset: true}, {delay: 500});
+}
+
+
+reveal()

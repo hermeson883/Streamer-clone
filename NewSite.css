@@ -14,12 +14,20 @@
     --bg-color: #fff;
 }
 
+html{
+    width: 100%;
+    overflow:auto
+
+}
+
 body{
     background: rgba(2,3,7, 0.9);
+    overflow-x: hidden;
+   
 }
 
 header{
-    background: rgba(2,3,7, 0.4);
+    background: rgba(2,3,7, 0.6);
     display: flex;
     justify-content: space-between;
     align-items: center;    
@@ -61,6 +69,30 @@ ul:nth-child(1) a:hover {
     animation: none;
 }
 
+
+#Login{
+    display:flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+form{
+    width: 400px;
+    margin: auto;
+}
+
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background: white;
+    padding: 30px;
+    border-radius:5px;
+}
+
+.card-top, .form {
+    font-size: 38px;
+    text-align: center;
+    color: red;
+}
 
 img{
     position: relative;
@@ -167,13 +199,10 @@ section#chegando{
     width: auto;
 }
 
-footer #footer{
-    background: rgba(2,3,7, 0.)
-}
-
 #plans{
     margin: 2rem;
 }
+
 
 .grid{
     display: flex;
@@ -205,11 +234,24 @@ div.grid1:hover{
     color:  var(--bg-color)
 }
 
-footer{
-    background: rgba(251,251,245, .5)
+
+footer#footer{
+    background:#020305;
+    padding:2rem
 }
 
-div.about-us{
-    display:flex;
-    justify-content:center
+.row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.text > p{
+    color:  white;
+    font-size: 1rem;
+}
+
+.contact-box{
+    font-size: 2rem;
+
 }

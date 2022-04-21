@@ -10,31 +10,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,300&family=Open+Sans:wght@300;500&family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
 
 </head>
 <body>
     <header>
-        <a href="#" class='netflix'>Netflix</a>
+        
+        <a href="" id='Login'><ion-icon name="add"></ion-icon></a>
         <nav class="navigation">
             <ul class="menu">
                 <li><a href="#"> Sobre nós </a></li>
                 <li><a href="#"> Nossos Planos</a></li>
                 <li><a href="#home"> Novos Lançamentos </a></li>
-                <li><a href="#"> Premiados </a></li>
+                <li><a href="#chegando">Proximos lançamentos</a></li>
             </ul>
+            
         </nav>
+
         <a href="#">Criar conta</a>
     </header>
+
     <!--section-->
     
     <section>
-        <div class="movies1"><img src="photos/img/home3.jpg" alt=""/>
+        <div class="movies1">
+            <img class="paralax" src="photos/img/home3.jpg" alt=""/> 
+            
             <div id="Comentario">
                 <h2>Spider-Man:Homecoming</h2>
                 <a href="#" class="play">Play</a>
                 <a href="#" class="play">Add list</a>
                 <h3>A young Peter Parker/Spider-Man begins to navigate his newfound identity as the web-slinging super hero Spider-Man. Thrilled by his experience with the Avengers, Peter returns home, where he lives with his Aunt May, under the watchful eye of his new mentor Tony Stark. Peter tries to fall back into his normal daily routine - distracted by thoughts of proving himself to be more than just your friendly neighborhood Spider-Man - but when the Vulture emerges as a new villain, everything that Peter holds most important will be threatened.</h3>
+
             </div>
         </div>
     </section>
@@ -154,19 +162,44 @@
     </section>
 
     <footer id="footer">
-        <div class="about-us">
-            <div><a href="">instagram</a></div>
-            <div><a href="">Facebook</a></div>
-            <div><a href="">Linkedin</a></div>
-            <diva><a href=""></a></div>
-            <div><a href=""></a></div>
+        <div class="contact-area">
+            <div class="row"> 
+                <div class="text">
+                    <p>&copy; Company, inc</p>
+                </div>
+                <div class="contact-box">
+                    <a class="icons" href="https://www.instagram.com/kodhaksenpai/?hl=pt-br">
+                        <ion-icon class="icon" name="logo-instagram"></ion-icon>
+                    </a>
+                
+                    <a class="icons" href="https://www.instagram.com/kodhaksenpai/?hl=pt-br">
+                        <ion-icon class="icon" name="logo-twitter"></ion-icon>
+                    </a>
+                    <a class="icons" href="https://www.instagram.com/kodhaksenpai/?hl=pt-br">
+                        <ion-icon class="icon" name="logo-facebook"></ion-icon>
+                    </a>
+
+                </div>
+            </div>
         </div>
+
     </footer>
 
-     
+    
     
     <!--swapper-->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--ionic-->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!--scroolrevel-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!--paralax-->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
     <!--script-->
     <script src="NewSite.js"></script>
 </body>
